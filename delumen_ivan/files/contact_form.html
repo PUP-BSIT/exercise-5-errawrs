@@ -7,15 +7,35 @@
     <title>Contact Form</title>
 </head>
 <body>
-    <form action="" class="contact-box">
+    <div class="contact-form">
         <h2>Contact Us</h2>
-        <input type="text" class="input-field" placeholder="Full Name">
-        <input type="email" class="input-field" placeholder="Email Address">
-        <input type="text" class="input-field" placeholder="Phone No.">
-        <input type="text" class="input-field" placeholder="Subject">
-        <textarea type="text" class="input-field textarea-field" 
-        placeholder="Your Message"></textarea>
-        <button type="button" class="btn">Send Message</button>
-    </form>
+        <form>
+            <div class="contact-box">
+                <label for="name"> </label>
+                <input type="text" id="name" 
+                name="name" placeholder="Full Name" required />
+            </div>
+            <div class="contact-box">
+                <label for="email"> </label>
+                <input type="email" id="email" 
+                name="email" placeholder="Email Address" required />
+            </div>
+            <div class="contact-box">
+                <label for="phone"></label>
+                <input type="text" id="phone" 
+                name="phone" placeholder="Phone No."/>
+            </div>
+            <div class="contact-box">
+                <label for="subject"></label>
+                <input type="text" id="subject" 
+                name="subject" placeholder="Subject" required />
+            </div>
+            <div class="contact-box">
+                <label for="message"></label>
+                <textarea id="message" 
+                name="message" rows="5" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
 </body>
 </html>
