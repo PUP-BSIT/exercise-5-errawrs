@@ -530,6 +530,7 @@ p {
 /*Home section*/
 /* Mobile Small */
 @media (max-width: 320px) {
+  /* home section */
   #home_section {
     padding-top: 70px;
     height: auto;
