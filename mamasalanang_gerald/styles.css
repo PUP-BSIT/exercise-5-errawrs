@@ -11,10 +11,7 @@ body {
   background-color: #f9f9f9;
 }
 
-h1,
-h2,
-h3,
-h4 {
+h1, h2, h3, h4 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-style: oblique;
   margin-bottom: 1rem;
@@ -304,9 +301,7 @@ label {
   font-weight: bold;
 }
 
-input[type="text"],
-input[type="email"],
-textarea {
+input[type="text"], input[type="email"], textarea {
   width: 100%;
   padding: 12px 15px;
   border: 1px solid #ddd;
@@ -315,9 +310,7 @@ textarea {
   transition: all 0.3s ease;
 }
 
-input[type="text"]:focus,
-input[type="email"]:focus,
-textarea:focus {
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
   outline: none;
   border-color: #d13abd;
   box-shadow: 0 0 0 3px rgba(209, 58, 189, 0.1);
@@ -368,11 +361,7 @@ button[type="submit"]:active {
     padding: 0 15px;
   }
 
-  .interests,
-  .works,
-  .testimonials,
-  .gallery,
-  .contact {
+  .interests, .works .testimonials, .gallery, .contact {
     padding: 25px 15px;
     margin-bottom: 30px;
   }
@@ -435,51 +424,57 @@ button[type="submit"]:active {
   .name {
     height: 180px;
   }
+
   .name h1 {
     font-size: 1.5rem;
   }
+
   h2 {
     font-size: 1.3rem;
     margin-bottom: 0.6rem;
   }
+
   h2::after {
     width: 40px;
     height: 2px;
   }
-  .interests,
-  .works,
-  .testimonials,
-  .gallery,
-  .contact {
+
+  .interests, .works, .testimonials, .gallery, .contact {
     padding: 18px 10px;
     margin-bottom: 20px;
   }
+
   .interests .my-list li {
     padding: 8px 12px;
     font-size: 0.8rem;
   }
+
   .gallery-grid {
     grid-template-columns: 1fr;
   }
+
   .gallery-item img {
     height: 160px;
   }
+
   .comments {
     padding: 18px 12px;
   }
+
   .comments p {
     font-size: 0.85rem;
   }
+
   .comments p::before {
     font-size: 35px;
     top: -15px;
   }
-  input[type="text"],
-  input[type="email"],
-  textarea {
+
+  input[type="text"], input[type="email"], textarea {
     padding: 8px 10px;
     font-size: 13px;
   }
+
   button[type="submit"] {
     padding: 10px 20px;
     font-size: 14px;
@@ -491,51 +486,57 @@ button[type="submit"]:active {
   .name {
     height: 200px;
   }
+
   .name h1 {
     font-size: 1.7rem;
   }
+
   h2 {
     font-size: 1.4rem;
     margin-bottom: 0.7rem;
   }
+
   h2::after {
     width: 45px;
     height: 2px;
   }
-  .interests,
-  .works,
-  .testimonials,
-  .gallery,
-  .contact {
+
+  .interests, .works, .testimonials, .gallery, .contact {
     padding: 20px 12px;
     margin-bottom: 25px;
   }
+
   .interests .my-list li {
     padding: 10px 15px;
     font-size: 0.85rem;
   }
+
   .gallery-grid {
     grid-template-columns: 1fr;
   }
+
   .gallery-item img {
     height: 170px;
   }
+
   .comments {
     padding: 20px 15px;
   }
+
   .comments p {
     font-size: 0.9rem;
   }
+
   .comments p::before {
     font-size: 40px;
     top: -15px;
   }
-  input[type="text"],
-  input[type="email"],
-  textarea {
+
+  input[type="text"], input[type="email"], textarea {
     padding: 9px 12px;
     font-size: 14px;
   }
+
   button[type="submit"] {
     padding: 12px 22px;
     font-size: 15px;
@@ -547,51 +548,57 @@ button[type="submit"]:active {
   .name {
     height: 220px;
   }
+
   .name h1 {
     font-size: 1.9rem;
   }
+  
   h2 {
     font-size: 1.5rem;
     margin-bottom: 0.8rem;
   }
+
   h2::after {
     width: 50px;
     height: 2px;
   }
-  .interests,
-  .works,
-  .testimonials,
-  .gallery,
-  .contact {
+
+  .interests, .works, .testimonials, .gallery, .contact {
     padding: 22px 15px;
     margin-bottom: 28px;
   }
+
   .interests .my-list li {
     padding: 12px 18px;
     font-size: 0.9rem;
   }
+
   .gallery-grid {
     grid-template-columns: 1fr;
   }
+
   .gallery-item img {
     height: 180px;
   }
+
   .comments {
     padding: 22px 18px;
   }
+
   .comments p {
     font-size: 0.95rem;
   }
+
   .comments p::before {
     font-size: 45px;
     top: -18px;
   }
-  input[type="text"],
-  input[type="email"],
-  textarea {
+
+  input[type="text"], input[type="email"], textarea {
     padding: 10px 14px;
     font-size: 15px;
   }
+  
   button[type="submit"] {
     padding: 12px 25px;
     font-size: 16px;
