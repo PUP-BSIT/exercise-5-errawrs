@@ -1,0 +1,72 @@
+body {
+  text-align: center;
+}
+
+h2 {
+  font-family: Impact;
+  font-style: oblique;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  font-family: Impact;
+  text-shadow: -2px -2px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.name {
+  background-image: url("./Assets/Images/bg_image.jpg");
+  font-family: Impact;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: -2px -2px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.works {
+  border: 5px solid;
+}
+
+.my-list {
+  display: inline-block;
+  text-align: left;
+}
+
+.testimonials {
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.comments {
+  width: 250px;
+  background-image: linear-gradient(180deg, #eebd89, #d13abd);
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.gallery {
+  color: white;
+  background-image: linear-gradient(180deg, #eebd89, #d13abd);
+  text-shadow: -2px -2px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
