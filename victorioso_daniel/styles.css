@@ -1,0 +1,116 @@
+/* Custom Font */
+@font-face {
+  font-family: myFont;
+  src: url(./assets/fonts/Neonderthaw-Regular.ttf);
+}
+
+/* General Styling */
+h2 {
+  font-family: cursive, sans-serif;
+  font-weight: 1000;
+}
+
+/* Styling for Name Section */
+.name-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 5px;
+  font-family: myFont;
+  font-size: x-large;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(
+      70deg,
+      transparent,
+      rgba(255, 166, 0, 0.5),
+      rgba(255, 166, 0, 0.5),
+      rgba(0, 0, 255, 0.5)
+    ),
+    url(./assets/images/roses.jpg);
+  flex-direction: column;
+}
+
+.name-container img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-shadow: 3px 3px 5px;
+}
+
+/* Styling for Hobbies Section */
+.hobbies-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hobbies-container img {
+  width: 20px;
+}
+
+/* Styling for Work Section */
+.works-container {
+  border: 3px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for Testimonial Section */
+.testimonials-section {
+  text-align: center;
+  padding: 20px;
+  background: #f4a261;
+  flex-direction: row;
+}
+
+.testimonials-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.comment-box {
+  width: 250px;
+  background: #e9c46a;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 3px;
+  text-align: center;
+}
+
+/* Styling for Gallery Section */
+.gallery-container {
+  background: rgb(255, 218, 185);
+  background: linear-gradient(
+    to left top,
+    rgba(255, 218, 185, 1) 20%,
+    rgba(255, 182, 193, 1) 50%,
+    rgba(255, 160, 122, 1) 80%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.gallery-container img {
+  margin: 10px 0;
+  max-width: 100%;
+  width: 150px;
+  padding: 5px;
+}
