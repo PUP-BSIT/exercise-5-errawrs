@@ -1,0 +1,112 @@
+/*------ Styles for Name section ------*/
+.name-section {
+  background-image: url(./images/bg-name.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 200px;
+  padding: 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+}
+
+/*----Style for all h2 Tags---*/
+h2 {
+  font-style: italic;
+  color: whitesmoke;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/*--------Style for my Interest and Hobbies Section --*/
+.interest-section {
+  text-align: center;
+  padding: 20px;
+  background: #264653;
+}
+
+.interest-section li {
+  color: white;
+}
+
+.interest-container {
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 50px;
+  display: inline-block;
+}
+
+/*---------Style for My-works Section----*/
+.my-works {
+  border: 1px solid;
+  list-style: none;
+  text-align: center;
+  padding: 20px;
+  background: #2a9d8f;
+}
+
+.my-works li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.my-works-container {
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 50px;
+  display: inline-block;
+}
+
+/*----------Style for my testimonials section -------------------*/
+.testimonials-section {
+  text-align: center;
+  padding: 20px;
+  background: #f4a261;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.comment-box {
+  width: 250px;
+  background: #e9c46a;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/*----------Style for my gallery section -------------------*/
+.gallery-section {
+  text-align: center;
+  padding: 20px;
+  background: #e76f51;
+}
+
+.image-container {
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 60px;
+  display: inline-block;
+}
+.gallery-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  justify-content: center;
+}
+
+.gallery-images img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid;
+  padding: 5px;
+}
